@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Instructor's Solution (Reviewed and Understood)
+// Abu-Hadhoud's Solution (Reviewed and Understood)
 
 int ReadPositiveNumber(string Massege)
 {
