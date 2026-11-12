@@ -13,7 +13,7 @@ int ReadPositiveNumber(string Message)
     return Number;
 }
 
-void PrintInvertedNumberPattern(int Number)
+void PrintNumberPattern(int Number)
 {
     for (int i = 1; i <= Number; i++)
     {
@@ -31,7 +31,7 @@ void PrintInvertedNumberPattern(int Number)
 int main()
 {
 
-    PrintInvertedNumberPattern(ReadPositiveNumber("Please enter a positive Number: "));
+    PrintNumberPattern(ReadPositiveNumber("Please enter a positive Number: "));
 
     return 0;
 }
